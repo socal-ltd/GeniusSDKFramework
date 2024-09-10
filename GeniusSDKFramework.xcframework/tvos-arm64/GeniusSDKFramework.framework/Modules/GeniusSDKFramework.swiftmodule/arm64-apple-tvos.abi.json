@@ -1,0 +1,501 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GeniusSDKFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "GeniusSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "GeniusSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "GeniusSDKFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GeniusSDK",
+        "printedName": "GeniusSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dataString",
+            "printedName": "dataString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18GeniusSDKFramework0A3SDKC10dataStringSSvp",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC10dataStringSSvp",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18GeniusSDKFramework0A3SDKC10dataStringSSvg",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC10dataStringSSvg",
+                "moduleName": "GeniusSDKFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18GeniusSDKFramework0A3SDKC10dataStringSSvs",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC10dataStringSSvs",
+                "moduleName": "GeniusSDKFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18GeniusSDKFramework0A3SDKC10dataStringSSvM",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC10dataStringSSvM",
+                "moduleName": "GeniusSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deferredData",
+            "printedName": "deferredData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18GeniusSDKFramework0A3SDKC12deferredDataSDySSypGvp",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC12deferredDataSDySSypGvp",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18GeniusSDKFramework0A3SDKC12deferredDataSDySSypGvg",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC12deferredDataSDySSypGvg",
+                "moduleName": "GeniusSDKFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18GeniusSDKFramework0A3SDKC12deferredDataSDySSypGvs",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC12deferredDataSDySSypGvs",
+                "moduleName": "GeniusSDKFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18GeniusSDKFramework0A3SDKC12deferredDataSDySSypGvM",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC12deferredDataSDySSypGvM",
+                "moduleName": "GeniusSDKFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GeniusSDK",
+                "printedName": "GeniusSDKFramework.GeniusSDK",
+                "usr": "s:18GeniusSDKFramework0A3SDKC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18GeniusSDKFramework0A3SDKCACycfc",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKCACycfc",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "connect",
+            "printedName": "connect()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18GeniusSDKFramework0A3SDKC7connectyyF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC7connectyyF",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logPaste",
+            "printedName": "logPaste()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18GeniusSDKFramework0A3SDKC8logPasteyyF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC8logPasteyyF",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestATT",
+            "printedName": "requestATT(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18GeniusSDKFramework0A3SDKC10requestATT10completionyyyc_tF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC10requestATT10completionyyyc_tF",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logEvent",
+            "printedName": "logEvent(eventName:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18GeniusSDKFramework0A3SDKC8logEvent9eventName4dataySS_SDySSypGtF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC8logEvent9eventName4dataySS_SDySSypGtF",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "buildDynamicLink",
+            "printedName": "buildDynamicLink(url:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18GeniusSDKFramework0A3SDKC16buildDynamicLink3url6paramsS2S_SDySSypGSgtF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC16buildDynamicLink3url6paramsS2S_SDySSypGSgtF",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18GeniusSDKFramework0A3SDKC",
+        "mangledName": "$s18GeniusSDKFramework0A3SDKC",
+        "moduleName": "GeniusSDKFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 432,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "Dictionary",
+      "offset": 636,
+      "length": 331,
+      "value": "[(\"deviceName\", nil), (\"systemVersion\", nil), (\"identifierForVendor\", nil), (\"systemName\", nil), (\"model\", nil), (\"localizedModel\", nil), (\"orientation\", nil), (\"isBatteryMonitoringEnabled\", nil), (\"batteryLevel\", nil), (\"batteryState\", nil), (\"idfa\", nil)]"
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1004,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1036,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "Dictionary",
+      "offset": 1087,
+      "length": 3,
+      "value": "[]"
+    }
+  ]
+}

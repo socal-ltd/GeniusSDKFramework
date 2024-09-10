@@ -1,0 +1,6 @@
+framework module GeniusSDKFramework {
+  umbrella header "GeniusSDKFramework.h"
+  export *
+
+  module * { export * }
+}
