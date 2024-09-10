@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
   s.homepage      = 'https://www.eshkol.com'
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.author        = 'Eshkol'
-  s.source = { :path => './' }
-  # s.source        = { :git => '', :tag => s.version.to_s }
+  s.source        = { :git => 'https://github.com/socal-ltd/GeniusSDKFramework.git', :tag => s.version.to_s }
   s.platform     = :ios, :tvos, :osx
   s.swift_version = '5.0'
   
