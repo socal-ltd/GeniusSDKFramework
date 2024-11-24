@@ -8,6 +8,7 @@ import Foundation
 @_exported import GeniusSDKFramework
 import IOKit
 import Swift
+import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims

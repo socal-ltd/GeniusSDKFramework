@@ -36,6 +36,13 @@
         "moduleName": "GeniusSDKFramework"
       },
       {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "GeniusSDKFramework"
+      },
+      {
         "kind": "Var",
         "name": "externalLog",
         "printedName": "externalLog",
@@ -766,35 +773,35 @@
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 432,
+      "offset": 476,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 636,
-      "length": 331,
-      "value": "[(\"deviceName\", nil), (\"systemVersion\", nil), (\"identifierForVendor\", nil), (\"systemName\", nil), (\"model\", nil), (\"localizedModel\", nil), (\"orientation\", nil), (\"isBatteryMonitoringEnabled\", nil), (\"batteryLevel\", nil), (\"batteryState\", nil), (\"idfa\", nil)]"
+      "offset": 680,
+      "length": 484,
+      "value": "[(\"totalInternalSpace\", nil), (\"freeInternalSpace\", nil), (\"userAgent\", nil), (\"language\", nil), (\"countryCodeLocale\", nil), (\"deviceName\", nil), (\"systemVersion\", nil), (\"identifierForVendor\", nil), (\"systemName\", nil), (\"model\", nil), (\"localizedModel\", nil), (\"orientation\", nil), (\"isBatteryMonitoringEnabled\", nil), (\"batteryLevel\", nil), (\"batteryState\", nil), (\"idfa\", nil)]"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1201,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 1036,
+      "offset": 1233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 1087,
+      "offset": 1284,
       "length": 3,
       "value": "[]"
     }

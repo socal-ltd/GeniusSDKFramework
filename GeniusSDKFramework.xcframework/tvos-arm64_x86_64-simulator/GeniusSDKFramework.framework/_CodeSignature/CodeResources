@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		4DjYkTWuh+kubHvdCj0wwqynhaA=
+		uLZjs14df085eTmZXEum5LVNOmw=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		mqfGDVG8yhgGL2QySX/jNLcdH3s=
+		FLesDypQfcVly4VKQXb/pzvvNNo=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		4DjYkTWuh+kubHvdCj0wwqynhaA=
+		uLZjs14df085eTmZXEum5LVNOmw=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		hAMRNFgIL+JtTwWYD88KTP4CF4w=
+		wQEkw+EGjdcdaoVhvpwwQmnLS34=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CBi2PMuEKyrEoJ5jBtRhviQOdUwFZoIwDsiGZVybK3s=
+			LOUW/89IB7g0ciuqBesmOvrpw1e+otLGb0baZ1SkA1M=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y0kBtTcsuMXJZhxMboAgc05aFJ1xUe/xl0jUiVL9alo=
+			cuyf4dP1wbxBqDzWvSmbWpe/ErQKVzzPEFdsTm9JOcw=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CBi2PMuEKyrEoJ5jBtRhviQOdUwFZoIwDsiGZVybK3s=
+			LOUW/89IB7g0ciuqBesmOvrpw1e+otLGb0baZ1SkA1M=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SP1ulYLZYpd4zk+6AQ6lCsQwscUfnTHpKZTz52RJM7k=
+			JDvrSuPRaNjN1wkobaBk/g5m4aOos0lwHwdDK6PxrbI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'GeniusSDKFramework'
-  s.version       = '1.0.0'
+  s.version       = '1.0.1'
   s.summary       = 'GeniusSDK Framework Pod'
   s.homepage      = 'https://www.eshkol.com'
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, :tvos, :osx
   s.swift_version = '5.0'
   
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '12.0'
   s.tvos.deployment_target = '14.0'
   s.osx.deployment_target = '12.0'
   
