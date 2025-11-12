@@ -17,15 +17,15 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import IOKit.ps
 public class GeniusSDK {
-  public var sendEvent: ((Swift.String, Swift.String) -> Swift.Void)?
+  public var sendEvent: (Swift.String, Swift.String) -> Swift.Void
   public var referrerData: [Swift.String : Any?]
-  public var dataString: Swift.String
+  public var dataString: Swift.String?
   public var deferredData: [Swift.String : Any?]
   public init()
   public func triggerEvent(eventName: Swift.String, data: [Swift.String : Any] = [:])
   public func updateGenius() async
   public func getDataAndSend() async
-  public func connect()
+  public func connect() async
   public func logPaste()
   public func requestATT(completion: @escaping () -> Swift.Void)
   public func logEvent(eventName: Swift.String, eventValue: [Swift.String : Any])
