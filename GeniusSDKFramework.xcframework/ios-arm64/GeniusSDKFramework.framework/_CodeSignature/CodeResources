@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		c+0/L2RV9Y2MDr0jO6rEj7w9rx0=
+		83U28xzYjKVZHnYt/JbdB5epHKs=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		wvUAGvmeb5p2guGFg0a1x177tWE=
+		osLsiZ8/3GQLue3K1gp1+rGB0RE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cGt7MWUTolU8DPUSyqIXJzzHewbBFM/WaAtkIn/cBso=
+			jAAKVaENfF2Yjy0I84FotvwWboD28g/5dPBMtcUurVY=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QvX31D2CrHncdfYS3LAHGXpuJl3j7UctwQzhMiS6EOQ=
+			xbPNCfPopyCeujHjHCe+lxXwwR6xsewaVLQmq14jUbY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -22,7 +22,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qaoeEPxBm9mZJRoDcnrzfxClQn7Ef8+bf6X83GHBBTE=
+			0a6GXx5YGCkUXyFZL27FB0iFXxqYcOkfyiCTr4qwVpw=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4fnoNaGHc1bZU2mJjqqOLx4XaMUV8IMisXf0AxM+YR8=
+			w660FTKHoRjnkLJpQZgADUPH2T4tMZstSTjrlAmVmmQ=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qaoeEPxBm9mZJRoDcnrzfxClQn7Ef8+bf6X83GHBBTE=
+			0a6GXx5YGCkUXyFZL27FB0iFXxqYcOkfyiCTr4qwVpw=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
@@ -85,7 +85,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G1QKhiOCOag7j9XjXdzLWv/UrH/ey3GwZDED9e5F/WM=
+			jmEnDWzi5AHrqV/ULN9Td2ggQ7biPa4oUGGaGKNUwGo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

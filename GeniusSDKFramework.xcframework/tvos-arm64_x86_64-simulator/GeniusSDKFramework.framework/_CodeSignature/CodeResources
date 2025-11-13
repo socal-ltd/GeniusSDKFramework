@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		3pZWpXlJSEV/xOsSUg+2K7DTtDk=
+		spu12eeCxsW/kFWccthNqL5uGGM=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		tlzItO+h0iDCE994dOVvPMsy1Jc=
+		YZbFRxl/33/KnbGtYuXWmTarlYA=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		3pZWpXlJSEV/xOsSUg+2K7DTtDk=
+		spu12eeCxsW/kFWccthNqL5uGGM=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		skZMsrzDncdjOn79dN9gMPdJfYI=
+		JM71OYL7WO3rDG7NdGFst/gcr8Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MC1h3KUnjIxagZI8aaEDCT0qXFq5XPJLZTmh1bR+AvM=
+			40h68X4AcB110KCT1NVlsPBTkibQmoqFGxOmdlu6VAM=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -98,14 +98,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fXq22nKkjtmW5cWTIKGiq8aoBxvzqN9fDS6xJGNfQlo=
+			B6JzhZPaUDrDgYAKJT7rKN0gYaHZ2LLwfUp81D8vtes=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MC1h3KUnjIxagZI8aaEDCT0qXFq5XPJLZTmh1bR+AvM=
+			40h68X4AcB110KCT1NVlsPBTkibQmoqFGxOmdlu6VAM=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3juZUMTX+5qFgdjmRg5Em20XvLEAdhj0sEje/0+4xDw=
+			rCLdW4XaJ5IlG/GatE7RkvM1mDZ2zjNFRzlEp6+VxQ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
