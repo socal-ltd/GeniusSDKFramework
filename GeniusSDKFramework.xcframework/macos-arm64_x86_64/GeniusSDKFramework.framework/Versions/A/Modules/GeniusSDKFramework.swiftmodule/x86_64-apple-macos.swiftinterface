@@ -15,6 +15,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import os
 import IOKit.ps
 public class GeniusSDK {
   public var sendEvent: (Swift.String, Swift.String) -> Swift.Void
@@ -23,7 +24,7 @@ public class GeniusSDK {
   public var deferredData: [Swift.String : Any?]
   public init()
   public func triggerEvent(eventName: Swift.String, data: [Swift.String : Any] = [:])
-  public func updateGenius() async
+  public func updateGenius() async -> Swift.String?
   public func getDataAndSend() async
   public func connect() async
   public func logPaste()

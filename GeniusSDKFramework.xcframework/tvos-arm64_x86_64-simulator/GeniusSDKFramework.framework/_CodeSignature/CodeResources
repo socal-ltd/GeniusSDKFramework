@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		spu12eeCxsW/kFWccthNqL5uGGM=
+		bxmPQDSSTEf9UWZqAp6onmZvgfU=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		dycxSeL71CKJhcsDPEzkR9lxDT4=
+		6p9ZPFOkoFRzrxxWRD+IB3bxwis=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		dycxSeL71CKJhcsDPEzkR9lxDT4=
+		6p9ZPFOkoFRzrxxWRD+IB3bxwis=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		YZbFRxl/33/KnbGtYuXWmTarlYA=
+		3DDrWhVGAOVA4D/DTl6QpQPB2gM=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		spu12eeCxsW/kFWccthNqL5uGGM=
+		bxmPQDSSTEf9UWZqAp6onmZvgfU=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		UrYIn16LMaji0C738Uo8h5FpSYY=
+		E8a8dyYh5U0gtBEN5LDaA4q04GM=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		UrYIn16LMaji0C738Uo8h5FpSYY=
+		E8a8dyYh5U0gtBEN5LDaA4q04GM=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		JM71OYL7WO3rDG7NdGFst/gcr8Y=
+		xHhmu7enozFx75tueO6cCHXi/C8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			40h68X4AcB110KCT1NVlsPBTkibQmoqFGxOmdlu6VAM=
+			QLdlCc7fFUIeQ64jLi8bjalkoWN6m0+CFw7WmByBZrM=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Et0l4SW1VUxHAI2MQcJVwQP6YdcypSuOW1sYq5pD9bU=
+			lHLtiWlWA39JC8kVhPFxD1Yt6OBLsU+qGfa/1uvraDE=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Et0l4SW1VUxHAI2MQcJVwQP6YdcypSuOW1sYq5pD9bU=
+			lHLtiWlWA39JC8kVhPFxD1Yt6OBLsU+qGfa/1uvraDE=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B6JzhZPaUDrDgYAKJT7rKN0gYaHZ2LLwfUp81D8vtes=
+			sIJwoZcTIiiYFpamCvxzHXrVgR6zpprLnfkwQ7G3034=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			40h68X4AcB110KCT1NVlsPBTkibQmoqFGxOmdlu6VAM=
+			QLdlCc7fFUIeQ64jLi8bjalkoWN6m0+CFw7WmByBZrM=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QHV09sUDIEQLBGh3EURAQOjjiwvev28wkcaZClhV3A8=
+			BGRRyrU9tQWwxGMpIaADEqwAM5KeKASKjLd3w7jHhdU=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QHV09sUDIEQLBGh3EURAQOjjiwvev28wkcaZClhV3A8=
+			BGRRyrU9tQWwxGMpIaADEqwAM5KeKASKjLd3w7jHhdU=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rCLdW4XaJ5IlG/GatE7RkvM1mDZ2zjNFRzlEp6+VxQ4=
+			3QGjKvPd5XoNnDKzQtXFkmrHX+ye5wS3ttiaVLMeBP0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
