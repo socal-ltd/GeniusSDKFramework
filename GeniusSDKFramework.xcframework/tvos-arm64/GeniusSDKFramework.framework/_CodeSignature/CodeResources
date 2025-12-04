@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		q3JWtvyDHxK+jx3vdoOmp3kVuYA=
+		1/iwCpQVl5Eq9ZEjaNKObm7n2T8=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		rDyErB5eYl80iyrNGPxBefCZwWk=
+		YzHaufkpsM/0WnugKCeNdY4He58=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+0xxGykHx7CM5t/m14s7fBzU5IRJoi+9WsMykWvFQY=
+			8FgAIPVUCUkM3G3cordHMZ5TqafopzVJQeeHqI7FTzc=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vLV6GonI7hC+kCi76Mo3Fl7MUBBwb2lLDKbc7gsXsAk=
+			EfkdrfS/NI3xH/jpkKLTDjq+twzi+/fE6ht3NnVSTOM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
