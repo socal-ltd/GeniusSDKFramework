@@ -38,6 +38,7 @@ jobs:
           machine trunk.cocoapods.org
             login ${COCOAPODS_TRUNK_TOKEN}
           EOF
+          chmod 600 ~/.netrc
         env:
           COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
 
