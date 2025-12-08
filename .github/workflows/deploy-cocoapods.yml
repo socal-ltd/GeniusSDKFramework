@@ -1,0 +1,54 @@
+name: Deploy to CocoaPods
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy_cocoapods:
+    runs-on: macos-latest
+
+    if: startsWith(github.event.release.tag_name, 'prod-v')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Install CocoaPods (via Bundler if Gemfile exists)
+        run: |
+          if [ -f "Gemfile" ]; then
+            bundle install --without development test
+          else
+            gem install cocoapods --no-document
+          fi
+
+      - name: Configure CocoaPods trunk token
+        run: |
+          mkdir -p ~/.netrc.d
+          cat <<EOF > ~/.netrc
+          machine trunk.cocoapods.org
+            login ${COCOAPODS_TRUNK_TOKEN}
+          EOF
+        env:
+          COCOAPODS_TRUNK_TOKEN: ${{ secrets.COCOAPODS_TRUNK_TOKEN }}
+
+      - name: Lint podspec
+        run: |
+          PODSPEC_FILE=$(ls *.podspec | head -n 1)
+          echo "Linting $PODSPEC_FILE"
+          pod lib lint "$PODSPEC_FILE" --allow-warnings --skip-tests
+
+    #   - name: Push to CocoaPods trunk
+    #     run: |
+    #       PODSPEC_FILE=$(ls *.podspec | head -n 1)
+    #       echo "Pushing $PODSPEC_FILE to CocoaPods trunk"
+    #       pod trunk push "$PODSPEC_FILE" --allow-warnings --skip-tests --verbose
