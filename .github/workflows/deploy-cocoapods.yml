@@ -54,3 +54,5 @@ jobs:
           PODSPEC_FILE=$(ls *.podspec | head -n 1)
           echo "Pushing $PODSPEC_FILE to CocoaPods trunk"
           pod trunk push "$PODSPEC_FILE" --allow-warnings --skip-tests --verbose
+
+#          
