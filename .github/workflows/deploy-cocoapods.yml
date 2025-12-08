@@ -36,6 +36,7 @@ jobs:
           mkdir -p ~/.netrc.d
           cat <<EOF > ~/.netrc
           machine trunk.cocoapods.org
+            login devops@eshkol.com
             password ${COCOAPODS_TRUNK_TOKEN}
           EOF
           chmod 600 ~/.netrc
