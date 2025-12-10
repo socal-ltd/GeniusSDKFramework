@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		UtTqR2knsYyBmMmm5iInulXZxqE=
+		IooozaPLVWDkcV6pGPV9+BGAc1Y=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NBhYm0gaUOxoLfaH7xY6P96piaE=
+		XS/yWjYhxrYUGYI/EQ1pTT1/buI=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NBhYm0gaUOxoLfaH7xY6P96piaE=
+		XS/yWjYhxrYUGYI/EQ1pTT1/buI=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		pIEFG/ztWLSRGFUjZo/gjmvQZro=
+		ovG8L9/XIELNbpB3RgxaV5z7uog=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XRU6c5zgMHADx5y8qLVpzF8JM32iPcWzj9OTXXZ11nM=
+			hkSd2Z/HSgJvBJDO+r/pNGilZiWCIXStCue+VG/FxsU=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K/gZcOO6EcqYgOhHdnUA/WCikDw/aG4SqwMnCA5Q70A=
+			Z51xowPWvDlsmemI00Z9w3JV2stRm321tcVtOGavEVQ=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K/gZcOO6EcqYgOhHdnUA/WCikDw/aG4SqwMnCA5Q70A=
+			Z51xowPWvDlsmemI00Z9w3JV2stRm321tcVtOGavEVQ=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FvpIatNArZR91klGb6j8Xrf8LcsfhYHw7a/0yVBxFNg=
+			Eb/mF/Ljp1U4bKms36ku1hiqseTx/y/ZxNWdARH7+EU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

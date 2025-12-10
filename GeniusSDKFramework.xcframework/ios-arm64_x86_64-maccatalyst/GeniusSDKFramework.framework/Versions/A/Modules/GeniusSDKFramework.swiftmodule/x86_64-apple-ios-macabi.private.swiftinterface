@@ -28,12 +28,12 @@ public class GeniusSDK {
   public var deferredData: [Swift.String : Any?]
   public init()
   public func triggerEvent(eventName: Swift.String, data: [Swift.String : Any] = [:])
-  public func updateGenius() async -> Swift.String?
+  public func updateGenius() async
   public func getDataAndSend() async
   public func connect() async
   public func logPaste()
   public func requestATT(completion: @escaping () -> Swift.Void)
-  public func logEvent(eventName: Swift.String, eventValue: [Swift.String : Any])
+  public func logEvent(eventName: Swift.String, eventValue: [Swift.String : Any]) async
   public func buildDynamicLink(url: Swift.String, params: [Swift.String : Any]? = nil) -> Swift.String
   @objc deinit
 }

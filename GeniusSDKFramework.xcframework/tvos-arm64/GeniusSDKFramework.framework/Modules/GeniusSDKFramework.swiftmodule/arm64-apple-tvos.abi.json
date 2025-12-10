@@ -697,22 +697,13 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "Void",
+                "printedName": "()"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18GeniusSDKFramework0A3SDKC06updateA0SSSgyYaF",
-            "mangledName": "$s18GeniusSDKFramework0A3SDKC06updateA0SSSgyYaF",
+            "usr": "s:18GeniusSDKFramework0A3SDKC06updateA0yyYaF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC06updateA0yyYaF",
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "AccessControl"
@@ -853,8 +844,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18GeniusSDKFramework0A3SDKC8logEvent9eventName0F5ValueySS_SDySSypGtF",
-            "mangledName": "$s18GeniusSDKFramework0A3SDKC8logEvent9eventName0F5ValueySS_SDySSypGtF",
+            "usr": "s:18GeniusSDKFramework0A3SDKC8logEvent9eventName0F5ValueySS_SDySSypGtYaF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC8logEvent9eventName0F5ValueySS_SDySSypGtYaF",
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "AccessControl"
@@ -1197,92 +1188,99 @@
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
-      "kind": "Dictionary",
-      "offset": 11665,
-      "length": 88,
-      "value": "[(\"event_name\", nil), (\"event_time\", nil), (\"event_value\", nil)]"
-    },
-    {
-      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 12371,
-      "length": 10,
-      "value": "\"platform\""
-    },
-    {
-      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 12383,
-      "length": 5,
-      "value": "\"iOS\""
-    },
-    {
-      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 12574,
-      "length": 7,
-      "value": "\"brand\""
-    },
-    {
-      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 12583,
-      "length": 7,
-      "value": "\"Apple\""
-    },
-    {
-      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 12652,
-      "length": 14,
-      "value": "\"manufacturer\""
-    },
-    {
-      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 12668,
-      "length": 7,
-      "value": "\"Apple\""
-    },
-    {
-      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
-      "kind": "Dictionary",
-      "offset": 14056,
-      "length": 586,
-      "value": "[(\"referrer_click_time\", nil), (\"app_install_time\", nil), (\"install_version\", nil), (\"instant_experience_launched\", nil), (\"referrer_url\", nil), (\"utm_source\", nil), (\"utm_medium\", nil), (\"utm_campaign\", nil), (\"utm_content\", nil), (\"utm_term\", nil), (\"gclid\", nil), (\"media_source\", nil), (\"campaign\", nil), (\"gs_sub1\", nil), (\"gs_sub2\", nil), (\"gs_sub3\", nil), (\"gs_sub4\", nil), (\"gs_sub5\", nil), (\"gs_sub6\", nil), (\"gs_sub7\", nil), (\"gs_sub8\", nil)]"
-    },
-    {
-      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 14707,
+      "offset": 11647,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 14759,
+      "offset": 11703,
+      "length": 88,
+      "value": "[(\"event_name\", nil), (\"event_time\", nil), (\"event_value\", nil)]"
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12409,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12421,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12612,
+      "length": 7,
+      "value": "\"brand\""
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12621,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12690,
+      "length": 14,
+      "value": "\"manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12706,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "Dictionary",
+      "offset": 14094,
+      "length": 586,
+      "value": "[(\"referrer_click_time\", nil), (\"app_install_time\", nil), (\"install_version\", nil), (\"instant_experience_launched\", nil), (\"referrer_url\", nil), (\"utm_source\", nil), (\"utm_medium\", nil), (\"utm_campaign\", nil), (\"utm_content\", nil), (\"utm_term\", nil), (\"gclid\", nil), (\"media_source\", nil), (\"campaign\", nil), (\"gs_sub1\", nil), (\"gs_sub2\", nil), (\"gs_sub3\", nil), (\"gs_sub4\", nil), (\"gs_sub5\", nil), (\"gs_sub6\", nil), (\"gs_sub7\", nil), (\"gs_sub8\", nil)]"
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14745,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "Dictionary",
+      "offset": 14797,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 14936,
+      "offset": 14974,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15309,
+      "offset": 15347,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15355,
+      "offset": 15393,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     }

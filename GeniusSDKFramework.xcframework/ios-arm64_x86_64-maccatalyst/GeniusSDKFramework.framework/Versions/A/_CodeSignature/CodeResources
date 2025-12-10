@@ -22,14 +22,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hvSXCUOdLkYo4fiAf0/xwGVP1durzg/WPSRrGYBO6fo=
+			9CLGj7mbCfQdw/RMfdkR9Xjfk/Sozixdvx+pP40mKT0=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LQ+/+1Inz2O82Cq9U0ykdNtvjpQCB12s2xdWLQACm/Q=
+			ryagClT04nPdQT6DviHofB6pe7m5FvRqlP/op6tvPVI=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
@@ -43,28 +43,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LQ+/+1Inz2O82Cq9U0ykdNtvjpQCB12s2xdWLQACm/Q=
+			ryagClT04nPdQT6DviHofB6pe7m5FvRqlP/op6tvPVI=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/LI2va7QAWQ/4iN6i7YLUfqt2HQ+YlwSEIYDJVTpCoU=
+			29JqCWL9JySaen/UbGG2RJ4WgiPF4ZTvfN1ywmXiF7s=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hvSXCUOdLkYo4fiAf0/xwGVP1durzg/WPSRrGYBO6fo=
+			9CLGj7mbCfQdw/RMfdkR9Xjfk/Sozixdvx+pP40mKT0=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lSct81Hud9xbBQGUPoIxZ5BG4LBaXElZSDjEXiV6Gbs=
+			2cScllBaPFyUEW/MyL0HEO8u3vqdPTUl0LkKN0+gTgk=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
@@ -78,14 +78,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lSct81Hud9xbBQGUPoIxZ5BG4LBaXElZSDjEXiV6Gbs=
+			2cScllBaPFyUEW/MyL0HEO8u3vqdPTUl0LkKN0+gTgk=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6a0tXqHmPYe3hSTrAgH5zSQVfGhO45pn3GT010Rjayc=
+			4584iAsR/HI7jL0uUyFqH8NcQp4A7vc5oMUZQHjn7Fg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

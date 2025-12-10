@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		fELVHiJvGwoaJRnbbKoZ73iSdSA=
+		OBWYwoMcZWNT5b225hfU6WfxPhE=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZWXmmwKDgSUGtXmkQayjE05nWHI=
+		OoUMPqhA2EUB33GEF7fwi9/5IG4=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZWXmmwKDgSUGtXmkQayjE05nWHI=
+		OoUMPqhA2EUB33GEF7fwi9/5IG4=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oD+gbjxZcsA/qV9/TNqT2vZga6k=
+		SD3o4edPgNQqm+wMks8XoC3TV44=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		fELVHiJvGwoaJRnbbKoZ73iSdSA=
+		OBWYwoMcZWNT5b225hfU6WfxPhE=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		5frrPG8H2Sho+akOBNEz7w8wINs=
+		w/N+CNjInW/L3Z8zf3AbzJffAnE=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5frrPG8H2Sho+akOBNEz7w8wINs=
+		w/N+CNjInW/L3Z8zf3AbzJffAnE=
 		</data>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nc8xpDaVqsgwc+24S/R5ekfsTo4=
+		7mdhAjMs7JNrL07218cVBnCY4ps=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -70,14 +70,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QnkQFDT8X0/2N8fOOhoZwkknQ5DAIEzaqBQA48cBMVs=
+			kZjV8pVE6om7xxmHiG78A71PtELZowpad+GX/Q4Ia2o=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EJdbii2RhVxEFz7dCaZBAMfXV/Kq/q3g7E2TEwpDF6s=
+			5W+KSZoIbBdS/U2BzO5AY9+MaE5Vw9O6wy7o4LrKCAo=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EJdbii2RhVxEFz7dCaZBAMfXV/Kq/q3g7E2TEwpDF6s=
+			5W+KSZoIbBdS/U2BzO5AY9+MaE5Vw9O6wy7o4LrKCAo=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bbnF/4e5dkxUKS1ktPXBa2+NMUHWrSqdjrK/xMer+7w=
+			ewGPNd5dbUs3/gSHT8djwhBxAtE0M9K1QHkrSThzfDA=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QnkQFDT8X0/2N8fOOhoZwkknQ5DAIEzaqBQA48cBMVs=
+			kZjV8pVE6om7xxmHiG78A71PtELZowpad+GX/Q4Ia2o=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MnkzgHcwtKm4ddUsj7I/z6MeXT32CxjB+L7voXiw6tY=
+			UE3arwNbf7rHxK6JGN43r0Q7u81dl1ObKbVyqDL9FlQ=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MnkzgHcwtKm4ddUsj7I/z6MeXT32CxjB+L7voXiw6tY=
+			UE3arwNbf7rHxK6JGN43r0Q7u81dl1ObKbVyqDL9FlQ=
 			</data>
 		</dict>
 		<key>Modules/GeniusSDKFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GdB/YKN1GJ3l9AfXe5dy8cUziwZgYuMz9W02hEDGQJI=
+			e8+tXH5nEPjLOE56hNcuE+RtEwWc1zVmn9iD7xHSaq0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
