@@ -18,6 +18,15 @@ extension UIKit.UIDevice {
 }
 public class GeniusSDK {
   public var sendEvent: (Swift.String, Swift.String) -> Swift.Void
+  public enum EventName {
+    case install
+    case open
+    case firstDeposit
+    case deposit
+    case login
+    case signup
+    case custom(Swift.String)
+  }
   public var referrerData: [Swift.String : Any?]
   public var dataString: Swift.String?
   public var deferredData: [Swift.String : Any?]
@@ -28,7 +37,7 @@ public class GeniusSDK {
   public func connect() async
   public func logPaste()
   public func requestATT(completion: @escaping () -> Swift.Void)
-  public func logEvent(eventName: Swift.String, eventValue: [Swift.String : Any]) async
+  public func logEvent(eventName: GeniusSDKFramework.GeniusSDK.EventName, eventValue: [Swift.String : Any]) async
   public func buildDynamicLink(url: Swift.String, params: [Swift.String : Any]? = nil) -> Swift.String
   @objc deinit
 }

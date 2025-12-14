@@ -230,6 +230,308 @@
             ]
           },
           {
+            "kind": "TypeDecl",
+            "name": "EventName",
+            "printedName": "EventName",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "install",
+                "printedName": "install",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GeniusSDKFramework.GeniusSDK.EventName.Type) -> GeniusSDKFramework.GeniusSDK.EventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                        "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventName",
+                            "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                            "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO7installyA2EmF",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC9EventNameO7installyA2EmF",
+                "moduleName": "GeniusSDKFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "open",
+                "printedName": "open",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GeniusSDKFramework.GeniusSDK.EventName.Type) -> GeniusSDKFramework.GeniusSDK.EventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                        "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventName",
+                            "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                            "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO4openyA2EmF",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC9EventNameO4openyA2EmF",
+                "moduleName": "GeniusSDKFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "firstDeposit",
+                "printedName": "firstDeposit",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GeniusSDKFramework.GeniusSDK.EventName.Type) -> GeniusSDKFramework.GeniusSDK.EventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                        "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventName",
+                            "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                            "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO12firstDeposityA2EmF",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC9EventNameO12firstDeposityA2EmF",
+                "moduleName": "GeniusSDKFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "deposit",
+                "printedName": "deposit",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GeniusSDKFramework.GeniusSDK.EventName.Type) -> GeniusSDKFramework.GeniusSDK.EventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                        "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventName",
+                            "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                            "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO7deposityA2EmF",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC9EventNameO7deposityA2EmF",
+                "moduleName": "GeniusSDKFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "login",
+                "printedName": "login",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GeniusSDKFramework.GeniusSDK.EventName.Type) -> GeniusSDKFramework.GeniusSDK.EventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                        "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventName",
+                            "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                            "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO5loginyA2EmF",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC9EventNameO5loginyA2EmF",
+                "moduleName": "GeniusSDKFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "signup",
+                "printedName": "signup",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GeniusSDKFramework.GeniusSDK.EventName.Type) -> GeniusSDKFramework.GeniusSDK.EventName",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventName",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                        "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventName",
+                            "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                            "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO6signupyA2EmF",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC9EventNameO6signupyA2EmF",
+                "moduleName": "GeniusSDKFramework"
+              },
+              {
+                "kind": "Var",
+                "name": "custom",
+                "printedName": "custom",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GeniusSDKFramework.GeniusSDK.EventName.Type) -> (Swift.String) -> GeniusSDKFramework.GeniusSDK.EventName",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.String) -> GeniusSDKFramework.GeniusSDK.EventName",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventName",
+                            "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                            "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "GeniusSDKFramework.GeniusSDK.EventName.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EventName",
+                            "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                            "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO6customyAESScAEmF",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC9EventNameO6customyAESScAEmF",
+                "moduleName": "GeniusSDKFramework"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC9EventNameO",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
             "kind": "Var",
             "name": "referrerData",
             "printedName": "referrerData",
@@ -833,9 +1135,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "EventName",
+                "printedName": "GeniusSDKFramework.GeniusSDK.EventName",
+                "usr": "s:18GeniusSDKFramework0A3SDKC9EventNameO"
               },
               {
                 "kind": "TypeNominal",
@@ -858,8 +1160,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18GeniusSDKFramework0A3SDKC8logEvent9eventName0F5ValueySS_SDySSypGtYaF",
-            "mangledName": "$s18GeniusSDKFramework0A3SDKC8logEvent9eventName0F5ValueySS_SDySSypGtYaF",
+            "usr": "s:18GeniusSDKFramework0A3SDKC8logEvent9eventName0F5ValueyAC0eG0O_SDySSypGtYaF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC8logEvent9eventName0F5ValueyAC0eG0O_SDySSypGtYaF",
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "AccessControl"
@@ -2967,99 +3269,92 @@
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11647,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 11703,
+      "offset": 13299,
       "length": 88,
       "value": "[(\"event_name\", nil), (\"event_time\", nil), (\"event_value\", nil)]"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12409,
+      "offset": 14005,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12421,
+      "offset": 14017,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12612,
+      "offset": 14208,
       "length": 7,
       "value": "\"brand\""
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12621,
+      "offset": 14217,
       "length": 7,
       "value": "\"Apple\""
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12690,
+      "offset": 14286,
       "length": 14,
       "value": "\"manufacturer\""
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 12706,
+      "offset": 14302,
       "length": 7,
       "value": "\"Apple\""
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 14094,
+      "offset": 15690,
       "length": 586,
       "value": "[(\"referrer_click_time\", nil), (\"app_install_time\", nil), (\"install_version\", nil), (\"instant_experience_launched\", nil), (\"referrer_url\", nil), (\"utm_source\", nil), (\"utm_medium\", nil), (\"utm_campaign\", nil), (\"utm_content\", nil), (\"utm_term\", nil), (\"gclid\", nil), (\"media_source\", nil), (\"campaign\", nil), (\"gs_sub1\", nil), (\"gs_sub2\", nil), (\"gs_sub3\", nil), (\"gs_sub4\", nil), (\"gs_sub5\", nil), (\"gs_sub6\", nil), (\"gs_sub7\", nil), (\"gs_sub8\", nil)]"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 14745,
+      "offset": 16341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 14797,
+      "offset": 16393,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 14974,
+      "offset": 16570,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15347,
+      "offset": 16943,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
       "filePath": "\/Users\/orel\/Projects\/GeniusSDK\/IOS\/GeniusSDKFramework\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 15393,
+      "offset": 16989,
       "length": 25,
       "value": "\"yyyy-MM-dd HH:mm:ss.SSS\""
     }
