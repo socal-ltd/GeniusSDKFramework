@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'GeniusSDKFramework'
-  s.version       = '1.0.10'
+  s.version       = '1.0.11'
   s.summary       = 'GeniusSDK Framework Pod'
   s.homepage      = 'https://github.com/socal-ltd/GeniusSDKFramework'
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
