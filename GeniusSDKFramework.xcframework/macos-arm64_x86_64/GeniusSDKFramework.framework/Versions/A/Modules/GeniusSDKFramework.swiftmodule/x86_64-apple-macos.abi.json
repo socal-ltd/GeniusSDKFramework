@@ -470,8 +470,7 @@
             "mangledName": "$s18GeniusSDKFramework0A3SDKC10EventParamO",
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "conformances": [
               {
@@ -533,8 +532,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "accessors": [
               {
@@ -705,8 +703,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "accessors": [
               {
@@ -772,8 +769,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "accessors": [
               {
@@ -831,8 +827,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "accessors": [
               {
@@ -919,8 +914,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -956,8 +950,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1019,8 +1012,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1084,8 +1076,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1112,8 +1103,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1140,8 +1130,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1168,8 +1157,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1196,8 +1184,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1366,8 +1353,7 @@
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
-              "AccessControl",
-              "RawDocComment"
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -1401,8 +1387,7 @@
         "moduleName": "GeniusSDKFramework",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -1860,42 +1845,42 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 815,
+      "offset": 725,
       "length": 9,
       "value": "\"revenue\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 862,
+      "offset": 772,
       "length": 10,
       "value": "\"currency\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 2571,
+      "offset": 1747,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 3059,
+      "offset": 2088,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 4553,
+      "offset": 3054,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 5105,
+      "offset": 3479,
       "length": 9,
       "value": "\"session\""
     },
@@ -1909,7 +1894,7 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/AppInfo.swift",
       "kind": "StringLiteral",
-      "offset": 309,
+      "offset": 308,
       "length": 32,
       "value": "\"NSUserTrackingUsageDescription\""
     },
@@ -1951,140 +1936,140 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 460,
+      "offset": 379,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 510,
+      "offset": 429,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 654,
+      "offset": 477,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 534,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 745,
+      "offset": 568,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 782,
+      "offset": 605,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 831,
+      "offset": 654,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 878,
+      "offset": 701,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 916,
+      "offset": 739,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 966,
+      "offset": 789,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "FloatLiteral",
-      "offset": 1025,
+      "offset": 848,
       "length": 5,
       "value": "0.001"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1063,
+      "offset": 886,
       "length": 19,
       "value": "\"com.eshkol.genius\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1113,
+      "offset": 936,
       "length": 19,
       "value": "\"com.eshkol.genius\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Deadline.swift",
       "kind": "Array",
-      "offset": 1224,
+      "offset": 950,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Deadline.swift",
       "kind": "BooleanLiteral",
-      "offset": 1252,
+      "offset": 978,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DeviceModel.swift",
       "kind": "Dictionary",
-      "offset": 521,
+      "offset": 423,
       "length": 6900,
       "value": "[(\"iPod5,1\", \"iPod touch (5th generation)\"), (\"iPod7,1\", \"iPod touch (6th generation)\"), (\"iPod9,1\", \"iPod touch (7th generation)\"), (\"iPhone3,1\", \"iPhone 4\"), (\"iPhone3,2\", \"iPhone 4\"), (\"iPhone3,3\", \"iPhone 4\"), (\"iPhone4,1\", \"iPhone 4s\"), (\"iPhone5,1\", \"iPhone 5\"), (\"iPhone5,2\", \"iPhone 5\"), (\"iPhone5,3\", \"iPhone 5c\"), (\"iPhone5,4\", \"iPhone 5c\"), (\"iPhone6,1\", \"iPhone 5s\"), (\"iPhone6,2\", \"iPhone 5s\"), (\"iPhone7,2\", \"iPhone 6\"), (\"iPhone7,1\", \"iPhone 6 Plus\"), (\"iPhone8,1\", \"iPhone 6s\"), (\"iPhone8,2\", \"iPhone 6s Plus\"), (\"iPhone9,1\", \"iPhone 7\"), (\"iPhone9,3\", \"iPhone 7\"), (\"iPhone9,2\", \"iPhone 7 Plus\"), (\"iPhone9,4\", \"iPhone 7 Plus\"), (\"iPhone10,1\", \"iPhone 8\"), (\"iPhone10,4\", \"iPhone 8\"), (\"iPhone10,2\", \"iPhone 8 Plus\"), (\"iPhone10,5\", \"iPhone 8 Plus\"), (\"iPhone10,3\", \"iPhone X\"), (\"iPhone10,6\", \"iPhone X\"), (\"iPhone11,2\", \"iPhone XS\"), (\"iPhone11,4\", \"iPhone XS Max\"), (\"iPhone11,6\", \"iPhone XS Max\"), (\"iPhone11,8\", \"iPhone XR\"), (\"iPhone12,1\", \"iPhone 11\"), (\"iPhone12,3\", \"iPhone 11 Pro\"), (\"iPhone12,5\", \"iPhone 11 Pro Max\"), (\"iPhone13,1\", \"iPhone 12 mini\"), (\"iPhone13,2\", \"iPhone 12\"), (\"iPhone13,3\", \"iPhone 12 Pro\"), (\"iPhone13,4\", \"iPhone 12 Pro Max\"), (\"iPhone14,4\", \"iPhone 13 mini\"), (\"iPhone14,5\", \"iPhone 13\"), (\"iPhone14,2\", \"iPhone 13 Pro\"), (\"iPhone14,3\", \"iPhone 13 Pro Max\"), (\"iPhone14,7\", \"iPhone 14\"), (\"iPhone14,8\", \"iPhone 14 Plus\"), (\"iPhone15,2\", \"iPhone 14 Pro\"), (\"iPhone15,3\", \"iPhone 14 Pro Max\"), (\"iPhone15,4\", \"iPhone 15\"), (\"iPhone15,5\", \"iPhone 15 Plus\"), (\"iPhone16,1\", \"iPhone 15 Pro\"), (\"iPhone16,2\", \"iPhone 15 Pro Max\"), (\"iPhone17,3\", \"iPhone 16\"), (\"iPhone17,4\", \"iPhone 16 Plus\"), (\"iPhone17,1\", \"iPhone 16 Pro\"), (\"iPhone17,2\", \"iPhone 16 Pro Max\"), (\"iPhone17,5\", \"iPhone 16e\"), (\"iPhone18,3\", \"iPhone 17\"), (\"iPhone18,4\", \"iPhone Air\"), (\"iPhone18,1\", \"iPhone 17 Pro\"), (\"iPhone18,2\", \"iPhone 17 Pro Max\"), (\"iPhone8,4\", \"iPhone SE\"), (\"iPhone12,8\", \"iPhone SE (2nd generation)\"), (\"iPhone14,6\", \"iPhone SE (3rd generation)\"), (\"iPad2,1\", \"iPad 2\"), (\"iPad2,2\", \"iPad 2\"), (\"iPad2,3\", \"iPad 2\"), (\"iPad2,4\", \"iPad 2\"), (\"iPad3,1\", \"iPad (3rd generation)\"), (\"iPad3,2\", \"iPad (3rd generation)\"), (\"iPad3,3\", \"iPad (3rd generation)\"), (\"iPad3,4\", \"iPad (4th generation)\"), (\"iPad3,5\", \"iPad (4th generation)\"), (\"iPad3,6\", \"iPad (4th generation)\"), (\"iPad6,11\", \"iPad (5th generation)\"), (\"iPad6,12\", \"iPad (5th generation)\"), (\"iPad7,5\", \"iPad (6th generation)\"), (\"iPad7,6\", \"iPad (6th generation)\"), (\"iPad7,11\", \"iPad (7th generation)\"), (\"iPad7,12\", \"iPad (7th generation)\"), (\"iPad11,6\", \"iPad (8th generation)\"), (\"iPad11,7\", \"iPad (8th generation)\"), (\"iPad12,1\", \"iPad (9th generation)\"), (\"iPad12,2\", \"iPad (9th generation)\"), (\"iPad13,18\", \"iPad (10th generation)\"), (\"iPad13,19\", \"iPad (10th generation)\"), (\"iPad15,7\", \"iPad (11th generation)\"), (\"iPad15,8\", \"iPad (11th generation)\"), (\"iPad4,1\", \"iPad Air\"), (\"iPad4,2\", \"iPad Air\"), (\"iPad4,3\", \"iPad Air\"), (\"iPad5,3\", \"iPad Air 2\"), (\"iPad5,4\", \"iPad Air 2\"), (\"iPad11,3\", \"iPad Air (3rd generation)\"), (\"iPad11,4\", \"iPad Air (3rd generation)\"), (\"iPad13,1\", \"iPad Air (4th generation)\"), (\"iPad13,2\", \"iPad Air (4th generation)\"), (\"iPad13,16\", \"iPad Air (5th generation)\"), (\"iPad13,17\", \"iPad Air (5th generation)\"), (\"iPad14,8\", \"iPad Air (11-inch) (M2)\"), (\"iPad14,9\", \"iPad Air (11-inch) (M2)\"), (\"iPad14,10\", \"iPad Air (13-inch) (M2)\"), (\"iPad14,11\", \"iPad Air (13-inch) (M2)\"), (\"iPad15,3\", \"iPad Air (11-inch) (M3)\"), (\"iPad15,4\", \"iPad Air (11-inch) (M3)\"), (\"iPad15,5\", \"iPad Air (13-inch) (M3)\"), (\"iPad15,6\", \"iPad Air (13-inch) (M3)\"), (\"iPad2,5\", \"iPad mini\"), (\"iPad2,6\", \"iPad mini\"), (\"iPad2,7\", \"iPad mini\"), (\"iPad4,4\", \"iPad mini 2\"), (\"iPad4,5\", \"iPad mini 2\"), (\"iPad4,6\", \"iPad mini 2\"), (\"iPad4,7\", \"iPad mini 3\"), (\"iPad4,8\", \"iPad mini 3\"), (\"iPad4,9\", \"iPad mini 3\"), (\"iPad5,1\", \"iPad mini 4\"), (\"iPad5,2\", \"iPad mini 4\"), (\"iPad11,1\", \"iPad mini (5th generation)\"), (\"iPad11,2\", \"iPad mini (5th generation)\"), (\"iPad14,1\", \"iPad mini (6th generation)\"), (\"iPad14,2\", \"iPad mini (6th generation)\"), (\"iPad16,1\", \"iPad mini (A17 Pro)\"), (\"iPad16,2\", \"iPad mini (A17 Pro)\"), (\"iPad6,3\", \"iPad Pro (9.7-inch)\"), (\"iPad6,4\", \"iPad Pro (9.7-inch)\"), (\"iPad7,3\", \"iPad Pro (10.5-inch)\"), (\"iPad7,4\", \"iPad Pro (10.5-inch)\"), (\"iPad8,1\", \"iPad Pro (11-inch) (1st generation)\"), (\"iPad8,2\", \"iPad Pro (11-inch) (1st generation)\"), (\"iPad8,3\", \"iPad Pro (11-inch) (1st generation)\"), (\"iPad8,4\", \"iPad Pro (11-inch) (1st generation)\"), (\"iPad8,9\", \"iPad Pro (11-inch) (2nd generation)\"), (\"iPad8,10\", \"iPad Pro (11-inch) (2nd generation)\"), (\"iPad13,4\", \"iPad Pro (11-inch) (3rd generation)\"), (\"iPad13,5\", \"iPad Pro (11-inch) (3rd generation)\"), (\"iPad13,6\", \"iPad Pro (11-inch) (3rd generation)\"), (\"iPad13,7\", \"iPad Pro (11-inch) (3rd generation)\"), (\"iPad14,3\", \"iPad Pro (11-inch) (4th generation)\"), (\"iPad14,4\", \"iPad Pro (11-inch) (4th generation)\"), (\"iPad16,3\", \"iPad Pro (11-inch) (M4)\"), (\"iPad16,4\", \"iPad Pro (11-inch) (M4)\"), (\"iPad6,7\", \"iPad Pro (12.9-inch) (1st generation)\"), (\"iPad6,8\", \"iPad Pro (12.9-inch) (1st generation)\"), (\"iPad7,1\", \"iPad Pro (12.9-inch) (2nd generation)\"), (\"iPad7,2\", \"iPad Pro (12.9-inch) (2nd generation)\"), (\"iPad8,5\", \"iPad Pro (12.9-inch) (3rd generation)\"), (\"iPad8,6\", \"iPad Pro (12.9-inch) (3rd generation)\"), (\"iPad8,7\", \"iPad Pro (12.9-inch) (3rd generation)\"), (\"iPad8,8\", \"iPad Pro (12.9-inch) (3rd generation)\"), (\"iPad8,11\", \"iPad Pro (12.9-inch) (4th generation)\"), (\"iPad8,12\", \"iPad Pro (12.9-inch) (4th generation)\"), (\"iPad13,8\", \"iPad Pro (12.9-inch) (5th generation)\"), (\"iPad13,9\", \"iPad Pro (12.9-inch) (5th generation)\"), (\"iPad13,10\", \"iPad Pro (12.9-inch) (5th generation)\"), (\"iPad13,11\", \"iPad Pro (12.9-inch) (5th generation)\"), (\"iPad14,5\", \"iPad Pro (12.9-inch) (6th generation)\"), (\"iPad14,6\", \"iPad Pro (12.9-inch) (6th generation)\"), (\"iPad16,5\", \"iPad Pro (13-inch) (M4)\"), (\"iPad16,6\", \"iPad Pro (13-inch) (M4)\")]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DeviceSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 5650,
+      "offset": 5386,
       "length": 10,
       "value": "\"hw.model\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DeviceSnapshot.swift",
       "kind": "IntegerLiteral",
-      "offset": 5836,
+      "offset": 5572,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DeviceSnapshot.swift",
       "kind": "BooleanLiteral",
-      "offset": 6451,
+      "offset": 6187,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DeviceSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 6604,
+      "offset": 6340,
       "length": 8,
       "value": "\"x86_64\""
     },
@@ -2098,49 +2083,49 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DynamicLink.swift",
       "kind": "StringLiteral",
-      "offset": 1270,
+      "offset": 1127,
       "length": 68,
       "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789*-._\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1026,
+      "offset": 773,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1119,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
-      "kind": "Array",
-      "offset": 1305,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1347,
+      "offset": 866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
       "kind": "Array",
-      "offset": 1426,
+      "offset": 1052,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1504,
+      "offset": 1094,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
+      "kind": "Array",
+      "offset": 1173,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1251,
       "length": 5,
       "value": "false"
     },
@@ -2154,49 +2139,49 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/InstallSignature.swift",
       "kind": "IntegerLiteral",
-      "offset": 194,
+      "offset": 80,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/LegacyMigration.swift",
       "kind": "StringLiteral",
-      "offset": 120,
+      "offset": 79,
       "length": 13,
       "value": "\"sdk_user_id\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/LegacyMigration.swift",
       "kind": "StringLiteral",
-      "offset": 154,
+      "offset": 113,
       "length": 12,
       "value": "\"gs_user_id\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/LegacyMigration.swift",
       "kind": "StringLiteral",
-      "offset": 188,
+      "offset": 147,
       "length": 13,
       "value": "\"gs_click_id\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/LegacyMigration.swift",
       "kind": "StringLiteral",
-      "offset": 230,
+      "offset": 189,
       "length": 37,
       "value": "\"genius_last_known_install_timestamp\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/LegacyMigration.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 248,
       "length": 26,
       "value": "\"is_first_open_genius_sdk\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/LegacyMigration.swift",
       "kind": "BooleanLiteral",
-      "offset": 500,
+      "offset": 398,
       "length": 5,
       "value": "false"
     },
@@ -2224,42 +2209,42 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/SessionTracker.swift",
       "kind": "BooleanLiteral",
-      "offset": 530,
+      "offset": 345,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Settings.swift",
       "kind": "BooleanLiteral",
-      "offset": 262,
+      "offset": 96,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Settings.swift",
       "kind": "BooleanLiteral",
-      "offset": 308,
+      "offset": 142,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/State.swift",
       "kind": "BooleanLiteral",
-      "offset": 284,
+      "offset": 220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/State.swift",
       "kind": "IntegerLiteral",
-      "offset": 1195,
+      "offset": 1093,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/State.swift",
       "kind": "Dictionary",
-      "offset": 1377,
+      "offset": 1275,
       "length": 3,
       "value": "[]"
     },
@@ -2280,21 +2265,21 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Store.swift",
       "kind": "Array",
-      "offset": 864,
+      "offset": 545,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/WifiMonitor.swift",
       "kind": "BooleanLiteral",
-      "offset": 226,
+      "offset": 171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/WifiMonitor.swift",
       "kind": "Array",
-      "offset": 318,
+      "offset": 263,
       "length": 2,
       "value": "[]"
     },
