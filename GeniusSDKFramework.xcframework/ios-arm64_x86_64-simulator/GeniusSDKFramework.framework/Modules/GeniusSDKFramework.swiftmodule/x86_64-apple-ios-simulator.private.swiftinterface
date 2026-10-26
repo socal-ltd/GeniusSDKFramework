@@ -1,10 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name GeniusSDKFramework
-// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GeniusSDKFramework
 import AdSupport
 import AppTrackingTransparency
-import CoreTelephony
 import Foundation
 @_exported import GeniusSDKFramework
 import Network
@@ -15,12 +13,8 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import os
-extension UIKit.UIDevice {
-  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
-}
-public class GeniusSDK {
-  public var sendEvent: (Swift.String, Swift.String) -> Swift.Void
-  public enum EventName {
+@_hasMissingDesignatedInitializers final public class GeniusSDK : Swift.Sendable {
+  public enum EventName : Swift.Sendable {
     case install
     case open
     case firstDeposit
@@ -28,18 +22,46 @@ public class GeniusSDK {
     case login
     case signup
     case custom(Swift.String)
+    public var rawValue: Swift.String {
+      get
+    }
   }
-  public var referrerData: [Swift.String : Any?]
-  public var dataString: Swift.String?
-  public var deferredData: [Swift.String : Any?]
-  public init()
-  public func triggerEvent(eventName: Swift.String, data: [Swift.String : Any] = [:])
-  public func updateGenius() async
-  public func getDataAndSend() async
-  public func connect() async
-  public func logPaste()
-  public func requestATT(completion: @escaping () -> Swift.Void)
-  public func logEvent(eventName: GeniusSDKFramework.GeniusSDK.EventName, eventValue: [Swift.String : Any]) async
-  public func buildDynamicLink(url: Swift.String, params: [Swift.String : Any]? = nil) -> Swift.String
+  public enum EventParam {
+    public static let revenue: Swift.String
+    public static let currency: Swift.String
+  }
+  final public var sendEvent: (Swift.String, Swift.String) -> Swift.Void {
+    get
+    set
+  }
+  convenience public init()
+  final public var dataString: Swift.String? {
+    get
+  }
+  final public var deferredData: [Swift.String : Swift.String] {
+    get
+  }
+  final public var isFirstOpen: Swift.Bool {
+    get
+  }
+  final public var isStopped: Swift.Bool {
+    get
+  }
+  final public func connect() async
+  final public func awaitDeferredData() async -> [Swift.String : Swift.String]
+  #if compiler(>=5.3) && $OptionalIsolatedParameters && $ExpressionMacroDefaultArguments
+  final public func logEvent(eventName: GeniusSDKFramework.GeniusSDK.EventName, eventValue: [Swift.String : Any] = [:], isolation: isolated (any _Concurrency.Actor)? = #isolation) async
+  #endif
+  final public func logEvent(eventName: GeniusSDKFramework.GeniusSDK.EventName, eventValue: [Swift.String : Any] = [:], completion: @escaping @Sendable () -> Swift.Void)
+  final public func stop(_ isStopped: Swift.Bool)
+  final public func setRequestsTrackingAuthorization(_ enabled: Swift.Bool)
+  final public func setReadsPasteboard(_ enabled: Swift.Bool)
+  final public func setMinTimeBetweenSessions(_ seconds: Swift.Int)
+  public static func setDebugLogging(_ enabled: Swift.Bool)
+  final public func buildDynamicLink(url: Swift.String, params: [Swift.String : Any]? = nil) -> Swift.String
+  final public func triggerEvent(eventName: Swift.String, data: [Swift.String : Any] = [:])
+  final public func requestATT(completion: @escaping () -> Swift.Void)
+  @available(*, deprecated, message: "connect() reads the pasteboard when setReadsPasteboard(true) is set.")
+  final public func logPaste()
   @objc deinit
 }
