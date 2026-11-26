@@ -898,6 +898,78 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "deepLinkParams",
+            "printedName": "deepLinkParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18GeniusSDKFramework0A3SDKC14deepLinkParamsSDyS2SGvp",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC14deepLinkParamsSDyS2SGvp",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18GeniusSDKFramework0A3SDKC14deepLinkParamsSDyS2SGvg",
+                "mangledName": "$s18GeniusSDKFramework0A3SDKC14deepLinkParamsSDyS2SGvg",
+                "moduleName": "GeniusSDKFramework",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "connect",
             "printedName": "connect()",
@@ -1109,6 +1181,76 @@
           },
           {
             "kind": "Function",
+            "name": "setCustomerUserId",
+            "printedName": "setCustomerUserId(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18GeniusSDKFramework0A3SDKC17setCustomerUserIdyySSSgF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC17setCustomerUserIdyySSSgF",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setPushToken",
+            "printedName": "setPushToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18GeniusSDKFramework0A3SDKC12setPushTokenyySSSgF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC12setPushTokenyySSSgF",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setRequestsTrackingAuthorization",
             "printedName": "setRequestsTrackingAuthorization(_:)",
             "children": [
@@ -1265,6 +1407,33 @@
             "declKind": "Func",
             "usr": "s:18GeniusSDKFramework0A3SDKC16buildDynamicLink3url6paramsS2S_SDySSypGSgtF",
             "mangledName": "$s18GeniusSDKFramework0A3SDKC16buildDynamicLink3url6paramsS2S_SDySSypGSgtF",
+            "moduleName": "GeniusSDKFramework",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDeepLinkParams",
+            "printedName": "getDeepLinkParams(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18GeniusSDKFramework0A3SDKC17getDeepLinkParams3urly10Foundation3URLV_tF",
+            "mangledName": "$s18GeniusSDKFramework0A3SDKC17getDeepLinkParams3urly10Foundation3URLV_tF",
             "moduleName": "GeniusSDKFramework",
             "declAttributes": [
               "Final",
@@ -1605,6 +1774,27 @@
       },
       {
         "kind": "Import",
+        "name": "AdServices",
+        "printedName": "AdServices",
+        "declKind": "Import",
+        "moduleName": "GeniusSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GeniusSDKFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GeniusSDKFramework"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1866,28 +2056,35 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 1747,
+      "offset": 1064,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 2088,
+      "offset": 1888,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "Dictionary",
-      "offset": 3054,
+      "offset": 2229,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
+      "kind": "Dictionary",
+      "offset": 3511,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/GeniusSDK.swift",
       "kind": "StringLiteral",
-      "offset": 3479,
+      "offset": 3936,
       "length": 9,
       "value": "\"session\""
     },
@@ -1910,7 +2107,7 @@
       "kind": "StringLiteral",
       "offset": 61,
       "length": 7,
-      "value": "\"1.1.0\""
+      "value": "\"1.2.0\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Config.swift",
@@ -2055,28 +2252,28 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DeviceSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 5242,
+      "offset": 6155,
       "length": 28,
       "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DeviceSnapshot.swift",
       "kind": "IntegerLiteral",
-      "offset": 5572,
+      "offset": 6485,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DeviceSnapshot.swift",
       "kind": "BooleanLiteral",
-      "offset": 6135,
+      "offset": 7048,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/DeviceSnapshot.swift",
       "kind": "StringLiteral",
-      "offset": 6340,
+      "offset": 7253,
       "length": 8,
       "value": "\"x86_64\""
     },
@@ -2097,42 +2294,42 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
       "kind": "BooleanLiteral",
-      "offset": 773,
+      "offset": 807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
       "kind": "BooleanLiteral",
-      "offset": 866,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
-      "kind": "Array",
-      "offset": 1052,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1094,
+      "offset": 900,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
       "kind": "Array",
-      "offset": 1173,
+      "offset": 1086,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
       "kind": "BooleanLiteral",
-      "offset": 1251,
+      "offset": 1128,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
+      "kind": "Array",
+      "offset": 1207,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Engine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1285,
       "length": 5,
       "value": "false"
     },
@@ -2228,6 +2425,20 @@
       "value": "\".pasteboard\""
     },
     {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/SearchAds.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 34,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/SearchAds.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 1,
+      "value": "\".searchads\""
+    },
+    {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/SessionTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 345,
@@ -2251,21 +2462,21 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/State.swift",
       "kind": "BooleanLiteral",
-      "offset": 220,
+      "offset": 320,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/State.swift",
       "kind": "IntegerLiteral",
-      "offset": 1093,
+      "offset": 1552,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/State.swift",
       "kind": "Dictionary",
-      "offset": 1275,
+      "offset": 1791,
       "length": 3,
       "value": "[]"
     },
@@ -2286,7 +2497,7 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Store.swift",
       "kind": "Array",
-      "offset": 545,
+      "offset": 659,
       "length": 2,
       "value": "[]"
     },
@@ -2349,469 +2560,504 @@
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 363,
+      "offset": 360,
       "length": 14,
       "value": "\"referrer_url\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 407,
+      "offset": 404,
       "length": 21,
       "value": "\"referrer_click_time\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 455,
+      "offset": 452,
       "length": 18,
       "value": "\"app_install_time\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 500,
+      "offset": 497,
       "length": 17,
       "value": "\"install_version\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 555,
+      "offset": 552,
       "length": 29,
       "value": "\"instant_experience_launched\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 606,
+      "offset": 644,
+      "length": 10,
+      "value": "\"event_id\""
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
+      "kind": "StringLiteral",
+      "offset": 681,
+      "length": 18,
+      "value": "\"customer_user_id\""
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 12,
+      "value": "\"push_token\""
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
+      "kind": "StringLiteral",
+      "offset": 765,
+      "length": 23,
+      "value": "\"meta_install_referrer\""
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
+      "kind": "StringLiteral",
+      "offset": 809,
+      "length": 11,
+      "value": "\"asa_token\""
+    },
+    {
+      "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
+      "kind": "StringLiteral",
+      "offset": 889,
       "length": 12,
       "value": "\"utm_source\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 640,
+      "offset": 923,
       "length": 12,
       "value": "\"utm_medium\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 676,
+      "offset": 959,
       "length": 14,
       "value": "\"utm_campaign\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 710,
+      "offset": 993,
       "length": 10,
       "value": "\"utm_term\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 743,
+      "offset": 1026,
       "length": 13,
       "value": "\"utm_content\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 795,
+      "offset": 1078,
       "length": 14,
       "value": "\"media_source\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 846,
+      "offset": 1129,
       "length": 9,
       "value": "\"gs_sub1\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 874,
+      "offset": 1157,
       "length": 9,
       "value": "\"gs_sub2\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 902,
+      "offset": 1185,
       "length": 9,
       "value": "\"gs_sub3\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 930,
+      "offset": 1213,
       "length": 9,
       "value": "\"gs_sub4\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 958,
+      "offset": 1241,
       "length": 9,
       "value": "\"gs_sub5\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 986,
+      "offset": 1269,
       "length": 9,
       "value": "\"gs_sub6\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1014,
+      "offset": 1297,
       "length": 9,
       "value": "\"gs_sub7\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1325,
       "length": 9,
       "value": "\"gs_sub8\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1171,
+      "offset": 1454,
       "length": 16,
       "value": "\"system_version\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1210,
+      "offset": 1493,
       "length": 13,
       "value": "\"system_name\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1250,
+      "offset": 1533,
       "length": 17,
       "value": "\"localized_model\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1327,
+      "offset": 1610,
       "length": 31,
       "value": "\"is_battery_monitoring_enabled\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1383,
+      "offset": 1666,
       "length": 15,
       "value": "\"battery_level\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1423,
+      "offset": 1706,
       "length": 15,
       "value": "\"battery_state\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1511,
+      "offset": 1794,
       "length": 22,
       "value": "\"total_internal_space\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1846,
       "length": 21,
       "value": "\"free_internal_space\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1616,
+      "offset": 1899,
       "length": 24,
       "value": "\"fire_limit_ad_tracking\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1661,
+      "offset": 1944,
       "length": 12,
       "value": "\"fire_ad_id\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 1988,
       "length": 24,
       "value": "\"gaid_limit_ad_tracking\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1765,
+      "offset": 2048,
       "length": 12,
       "value": "\"user_agent\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1816,
+      "offset": 2099,
       "length": 11,
       "value": "\"init_time\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1857,
+      "offset": 2140,
       "length": 21,
       "value": "\"country_code_locale\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1915,
+      "offset": 2198,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1948,
+      "offset": 2231,
       "length": 13,
       "value": "\"app_version\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 1982,
+      "offset": 2265,
       "length": 11,
       "value": "\"bundle_id\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2015,
+      "offset": 2298,
       "length": 12,
       "value": "\"android_id\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2073,
+      "offset": 2356,
       "length": 20,
       "value": "\"genius_sdk_version\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2116,
+      "offset": 2399,
       "length": 13,
       "value": "\"device_name\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2152,
+      "offset": 2435,
       "length": 13,
       "value": "\"device_type\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2252,
+      "offset": 2535,
       "length": 9,
       "value": "\"cpu_abi\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2281,
+      "offset": 2564,
       "length": 10,
       "value": "\"cpu_abi2\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2397,
+      "offset": 2680,
       "length": 10,
       "value": "\"build_id\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2463,
+      "offset": 2746,
       "length": 9,
       "value": "\"odm_sku\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2513,
+      "offset": 2796,
       "length": 18,
       "value": "\"soc_manufacturer\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2552,
+      "offset": 2835,
       "length": 11,
       "value": "\"soc_model\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2626,
+      "offset": 2909,
       "length": 23,
       "value": "\"supported_32_bit_abis\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2680,
+      "offset": 2963,
       "length": 23,
       "value": "\"supported_64_bit_abis\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2729,
+      "offset": 3012,
       "length": 16,
       "value": "\"supported_abis\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2781,
+      "offset": 3064,
       "length": 12,
       "value": "\"build_time\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2829,
+      "offset": 3112,
       "length": 12,
       "value": "\"build_user\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2866,
+      "offset": 3149,
       "length": 15,
       "value": "\"is_debuggable\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2904,
+      "offset": 3187,
       "length": 13,
       "value": "\"is_emulator\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 2955,
+      "offset": 3238,
       "length": 29,
       "value": "\"permissions_review_required\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3003,
+      "offset": 3286,
       "length": 9,
       "value": "\"base_os\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3038,
+      "offset": 3321,
       "length": 16,
       "value": "\"security_patch\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3127,
+      "offset": 3410,
       "length": 25,
       "value": "\"media_performance_class\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3178,
+      "offset": 3461,
       "length": 17,
       "value": "\"preview_sdk_int\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3217,
+      "offset": 3500,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3259,
+      "offset": 3542,
       "length": 21,
       "value": "\"release_or_codename\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3316,
+      "offset": 3599,
       "length": 28,
       "value": "\"release_or_preview_display\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3372,
+      "offset": 3655,
       "length": 19,
       "value": "\"android_api_level\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3419,
+      "offset": 3702,
       "length": 18,
       "value": "\"active_codenames\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3471,
+      "offset": 3754,
       "length": 25,
       "value": "\"preview_sdk_fingerprint\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3523,
+      "offset": 3806,
       "length": 19,
       "value": "\"sem_first_sdk_int\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3561,
+      "offset": 3844,
       "length": 9,
       "value": "\"sem_int\""
     },
     {
       "filePath": "\/Users\/yoni\/Documents\/repos\/GeniusSDK-iOS\/GeniusSDKFramework\/Wire.swift",
       "kind": "StringLiteral",
-      "offset": 3597,
+      "offset": 3880,
       "length": 18,
       "value": "\"sem_platform_int\""
     }

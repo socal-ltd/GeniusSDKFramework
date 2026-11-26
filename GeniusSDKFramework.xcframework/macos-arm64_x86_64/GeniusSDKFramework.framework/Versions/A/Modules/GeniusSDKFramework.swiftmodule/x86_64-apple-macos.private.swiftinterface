@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target x86_64-apple-macos12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name GeniusSDKFramework
+import AdServices
 import AdSupport
 import AppKit
 import AppTrackingTransparency
@@ -49,6 +50,9 @@ import IOKit.ps
   final public var isStopped: Swift.Bool {
     get
   }
+  final public var deepLinkParams: [Swift.String : Swift.String] {
+    get
+  }
   final public func connect() async
   final public func awaitDeferredData() async -> [Swift.String : Swift.String]
   #if compiler(>=5.3) && $OptionalIsolatedParameters && $ExpressionMacroDefaultArguments
@@ -56,11 +60,14 @@ import IOKit.ps
   #endif
   final public func logEvent(eventName: GeniusSDKFramework.GeniusSDK.EventName, eventValue: [Swift.String : Any] = [:], completion: @escaping @Sendable () -> Swift.Void)
   final public func stop(_ isStopped: Swift.Bool)
+  final public func setCustomerUserId(_ id: Swift.String?)
+  final public func setPushToken(_ token: Swift.String?)
   final public func setRequestsTrackingAuthorization(_ enabled: Swift.Bool)
   final public func setReadsPasteboard(_ enabled: Swift.Bool)
   final public func setMinTimeBetweenSessions(_ seconds: Swift.Int)
   public static func setDebugLogging(_ enabled: Swift.Bool)
   final public func buildDynamicLink(url: Swift.String, params: [Swift.String : Any]? = nil) -> Swift.String
+  final public func getDeepLinkParams(url: Foundation.URL)
   final public func triggerEvent(eventName: Swift.String, data: [Swift.String : Any] = [:])
   final public func requestATT(completion: @escaping () -> Swift.Void)
   @available(*, deprecated, message: "connect() reads the pasteboard when setReadsPasteboard(true) is set.")
